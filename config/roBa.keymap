@@ -82,15 +82,15 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANG1  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp ENTER      &kp BACKSPACE                             &mt RIGHT_SHIFT RA(SPACE)
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
             bindings = <
-&trans     &trans     &trans     &trans     &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans     &trans     &trans     &trans     &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans     &trans     &trans     &trans     &trans  &trans      &trans   &trans                          &kp F12
+&trans     &trans     &trans     &trans     &msc SCRL_UP                         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans     &trans     &trans     &trans     &msc SCRL_DOWN  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans          &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans     &trans     &trans     &trans     &trans          &trans      &trans   &trans                          &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
