@@ -5,7 +5,7 @@ manifest:
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
     - name: caksoylar  # <-- RGB LED
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: zmkfirmware
